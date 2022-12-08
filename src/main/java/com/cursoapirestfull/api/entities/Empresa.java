@@ -14,8 +14,6 @@ import java.util.List;
 @Table(name = "empresa")
 @Entity
 public class Empresa implements Serializable {
-    static final long serialVersionUID = 42L;
-
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
